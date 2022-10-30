@@ -1,4 +1,4 @@
-const url = 'https://script.google.com/macros/s/AKfycby8KDZ6-9T-S990D1kPaX5sMzUKEj5bBR7ye_0BQpa3bxI-wqqYN5rIl2WCP2FfOWZxTQ/exec'
+const url = 'https://script.google.com/macros/s/AKfycbwHzqn-1BcMZyzcuxn-azOpEuPVdVyturRcN-50_mRwU8TemHljUtTgj14lNZjNkMWxfw/exec'
 const btnSubmit = document.getElementById('btnSubmit')
 const form = document.forms['submit-form']
 
