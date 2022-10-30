@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Landing Page */
+
+#landing-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(images/gedung-rb.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.landing-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 3rem;
+}
+
+.landing-text h1 {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.landing-text p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 18px 6rem;
+}
+
+.landing-text a {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    color: antiquewhite;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    background-color: red;
+    transition: .5s;
+}
+
+.landing-text a:hover {
+    background-color: brown;
+    transform: translateY(-5px);
+}
+
+/* Form Page */
+
+#form-page {
+    display: flex;
+    padding: 6rem 10rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-card {
+    display: flex;
+    padding: 4rem 6rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.input label {
+    font-weight: 600;
+}
+
+.input input {
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 2rem;
+    transition: .5s;
+}
+
+#inputAlamat {
+    padding: 20px;
+    border-radius: 1rem;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+#inputAlamat:hover {
+    border: 1px solid red;
+}
+
+.input input:hover {
+    border: 1px solid red;
+}
+
+#btnSubmit {
+    width: 100%;
+    margin: 10px;
+    align-self: center;
+    background-color: red;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    color: antiquewhite;
+    padding: 1rem;
+    transition: .5s;
+}
+
+#btnSubmit:hover {
+    background-color: brown;
+    border-radius: 2rem;
+    transform: translateY(-0.25em);
+}

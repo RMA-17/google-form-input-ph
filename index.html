@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas PH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+        <article id="landing-page">
+            <div class="landing-text">
+                <h1>Welcome to</h1>
+                <h1>Rabbaanii Islamic School</h1>
+                <p>Sekolah unggulan nasional di bidang karakter dan prestasi akademik yang berpedoman <br> kepada
+                    Al-Quran
+                    dan As-Sunnah sesuai pemahaman para sahabat</p>
+                <a href="#">Klik Selengkapnya &longrightarrow;</a>
+            </div>
+        </article>
+        <article id="form-page">
+            <h1>Silahkan Isi data peserta baru</h1>
+            <div class="form-card">
+                <form action="submit-form">
+                    <div class="input">
+                        <label for="nama_lengkap">Nama lengkap</label>
+                        <input type="text" name="nama_lengkap" id="inputNamaLengkap" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="inputEmail" required>
+                    </div>
+                    <div class="input">
+                        <label for="no_telp">Nomor Telepon</label>
+                        <input type="number" name="no_telp" id="inputTelp" required>
+                    </div>
+                    <div class="input">
+                        <label for="alamat">Alamat</label>
+                        <textarea name="alamat" id="inputAlamat" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button id="btnSubmit" type="submit">Kirim data</button>
+                </form>
+            </div>
+        </article>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
